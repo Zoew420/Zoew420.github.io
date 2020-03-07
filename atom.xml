@@ -6,35 +6,38 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zoew420.github.io/"/>
-  <updated>2020-03-06T10:39:44.680Z</updated>
+  <updated>2020-03-07T07:35:25.364Z</updated>
   <id>https://zoew420.github.io/</id>
   
   <author>
-    <name>Zoe Chen</name>
+    <name>Zoew</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://zoew420.github.io/2020/03/06/hello-world/"/>
-    <id>https://zoew420.github.io/2020/03/06/hello-world/</id>
-    <published>2020-03-06T10:39:44.679Z</published>
-    <updated>2020-03-06T10:39:44.680Z</updated>
+    <title>利用hexo搭建网站的心血历程</title>
+    <link href="https://zoew420.github.io/2020/03/07/%E5%88%A9%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BF%83%E8%A1%80%E5%8E%86%E7%A8%8B/"/>
+    <id>https://zoew420.github.io/2020/03/07/%E5%88%A9%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BF%83%E8%A1%80%E5%8E%86%E7%A8%8B/</id>
+    <published>2020-03-07T06:58:37.000Z</published>
+    <updated>2020-03-07T07:35:25.364Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="利用hexo搭建网站的心血历程"><a href="#利用hexo搭建网站的心血历程" class="headerlink" title="利用hexo搭建网站的心血历程"></a>利用hexo搭建网站的心血历程</h1><h3 id="why"><a href="#why" class="headerlink" title="why"></a>why</h3><p>GitHub+hexo+hexo-theme搭建出来的网站不需要前端知识，如果我需要更新网站内容，只需要写md文章就行。</p><p>CS科班本人之前一直没有学习做笔记的习惯，很多之前的基础知识都很薄弱。乘准备PAT，准备考研的这段时间把之前丢的好好归纳归纳吧。</p><h3 id="搭建网站教程"><a href="#搭建网站教程" class="headerlink" title="搭建网站教程"></a>搭建网站教程</h3><ul><li><h4 id="博客类型"><a href="#博客类型" class="headerlink" title="博客类型"></a>博客类型</h4><ul><li><p>基础型</p><p><a href="https://ryanluoxu.github.io/2017/11/24/用-Hexo-和-GitHub-Pages-搭建博客/" target="_blank" rel="noopener">用Hexo和Github Pages搭建博客</a></p><p><a href="https://zhangslob.github.io/2017/02/28/教你免费搭建个人博客，Hexo-Github/" target="_blank" rel="noopener">教你免费搭建个人博客，Hexo&amp;Github</a></p></li><li><p>进阶型</p><p>GitHub和本地仓都准备好后，会想选一个漂亮的theme。于是打开了<a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo-theme的官方网站</a>。</p><p>很多教程的博客都是在基于next主题下的，当时觉得这个模板使用的人好多哦，不太想要。</p><p>挑来挑去挑了个很久没维护的，自己优化耗费了很长时间还是gg。</p><p>再后来被某个theme集成的algolia弄得死去活来，遂放弃转战next7（真香）</p><p><a href="https://cuiqingcai.com/7625.html" target="_blank" rel="noopener">利用Github+Hexo+Next从零搭建一个博客</a>是我发现的最新版本next7的主题更换及其优化教程。</p></li></ul></li><li><h4 id="GitHub上大神的网站备份"><a href="#GitHub上大神的网站备份" class="headerlink" title="GitHub上大神的网站备份"></a>GitHub上大神的网站备份</h4><p>为了更换电脑方便等原因，会选择把网站源代码放在GitHub上进行托管（保险）。于是有很多优秀的作品（好想一键fork&amp;&amp;clone）。</p><p>放个我觉得很棒的：<a href="https://github.com/crotoc/BlogSource" target="_blank" rel="noopener">基于Tranquilpeak主题的blog</a>，但是我的algolia限制了我。</p></li></ul><h3 id="期望"><a href="#期望" class="headerlink" title="期望"></a>期望</h3><p>我能好好学习，好好总结，不要荒废</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
+      利用hexo搭网站不会一分一毫前端的知识都够用。
     
     </summary>
     
     
+      <category term="建立blog" scheme="https://Zoew420.github.io/categories/%E5%BB%BA%E7%AB%8Bblog/"/>
+    
+    
+      <category term="hexo" scheme="https://Zoew420.github.io/tags/hexo/"/>
+    
+      <category term="next" scheme="https://Zoew420.github.io/tags/next/"/>
     
   </entry>
   
